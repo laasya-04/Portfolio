@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Laasya Sri Boddu</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <nav>
+  <div class="container">
+
+    <a href="index.html" class="nav-brand">
+      LSB
+    </a>
+
+    <ul class="nav-links">
+
+      <li>
+        <a href="index.html">
+          Home
+        </a>
+      </li>
+
+      <li>
+        <a href="projects.html">
+          Projects
+        </a>
+      </li>
+
+      <li>
+        <a href="labs.html">
+          Labs
+        </a>
+      </li>
+
+      <li>
+        <a href="certifications.html">
+          Certifications
+        </a>
+      </li>
+<li>
+    <a
+      href="resume.pdf"
+      target="_blank"
+      class="resume-nav-btn"
+    >Resume
+    </a>
+  </li>
+    </ul>
+
+  </div>
+</nav>
+
+  <div class="container">
+
+    <section class="hero">
+
+      <h1>
+        Contact
+      </h1>
+
+      <div class="contact-links">
+
+  <button
+    class="contact-link"
+    onclick="copyEmail()"
+  >
+    Email
+  </button>
+
+  <a
+    href="https://github.com/laasya-04"
+    target="_blank"
+    class="contact-link"
+  >
+    GitHub
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/laasya-sri-b-a674a734a/"
+    target="_blank"
+    class="contact-link"
+  >
+    LinkedIn
+  </a>
+
+  <button
+    class="contact-link"
+    onclick="copyPhone()"
+  >
+    Phone
+  </button>
+
+</div>
+
+    </section>
+
+  </div>
+  <script>
+
+function copyEmail() {
+
+  navigator.clipboard.writeText(
+    "laasya041105@gmail.com"
+  );
+
+  alert("Email copied to clipboard!");
+
+}
+
+function copyPhone() {
+
+  navigator.clipboard.writeText(
+    "+91 9003330351"
+  );
+
+  alert("Phone number copied to clipboard!");
+
+}
+
+</script>
+
+</body>
+
+</html>
