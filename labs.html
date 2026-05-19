@@ -1,41 +1,71 @@
-<nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Labs | Laasya Sri Boddu</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        LSB
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="labs.html">Labs</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- Main -->
   <div class="container">
 
-    <a href="index.html" class="nav-brand">
-      LSB
-    </a>
+    <section class="hero">
+      <h1>Labs & Learning</h1>
 
-    <ul class="nav-links">
+      <p class="hero-description">
+        Practical cybersecurity and networking labs focused on systems,
+        firewall configuration, networking fundamentals, and hands-on security experimentation.
+      </p>
 
-      <li>
-        <a href="index.html">
-          Home
-        </a>
-      </li>
+      <div class="project-grid">
 
-      <li>
-        <a href="projects.html">
-          Projects
-        </a>
-      </li>
-
-      <li>
-        <a href="labs.html">
-          Labs
-        </a>
-      </li>
-
-      <li>
-        <a href="certifications.html">
-          Certifications
-        </a>
-      </li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-    </ul>
+        <div class="project-card">
+          <h3>Linux Firewall Configuration Using iptables</h3>
+          <p>
+            Configured and tested Linux firewall rules using iptables,
+            implemented packet filtering policies, logging, and validated
+            firewall behavior using network scanning tools.
+          </p>
+          <a
+            href="https://docs.google.com/document/d/1nV-oGlCS8PCJKjb2NN-9CCxcKCxhXR9IljzPXh3jRtw/edit?usp=sharing"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            View Lab
+          </a>
+        </div>
+      </div>
+    </section>
 
   </div>
-</nav>
-<h2 class="section-title">
-  Labs & Learning
-</h2>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>
+        © 2025 Laasya Sri Boddu.
+        All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
