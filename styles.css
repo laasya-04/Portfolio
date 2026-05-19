@@ -209,6 +209,24 @@ nav .container {
 .resume-nav-btn::after {
   display: none;
 }
+.hero-status {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.hero-status p {
+  color: var(--text-secondary);
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+
+.status-label {
+  color: var(--accent);
+  font-weight: 600;
+}
 /* Sections */
 section {
   margin-bottom: 120px;
