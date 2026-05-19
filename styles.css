@@ -660,3 +660,12 @@ section:nth-child(n) {
   color: inherit;
   display: block;
 }
+@media (max-width: 768px) {
+  .lab-content {
+    padding: 20px;
+  }
+
+  .lab-name {
+    font-size: 16px;
+  }
+}
